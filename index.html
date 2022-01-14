@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CODE/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+
+
+    <title>Manila Aryal's Portfolio</title>
+
+</head>
+
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        /* background-image: url("4d1Fdxt.png"); */
+        /* background-attachment: fixed; */
+        /* background-position: center; */
+
+    }
+
+    .sec2 button {
+        width: 200px;
+        background-color: coral;
+        font-size: 22px;
+        padding: 5px;
+        margin: 52px 10px;
+
+    }
+
+    .sec2 button:hover {
+        background-color: #008CBA;
+        /* Blue */
+        color: black;
+        /* for shadow behind the button */
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .third-container {
+        /* background-color: rgb(143, 143, 165); */
+        height: 600px;
+        border: 3px solid black;
+        text-align: center;
+
+
+    }
+
+    .flex-container2 {
+        display: flex;
+        margin: 60px 100px 60px;
+        background-color: #bfbf34;
+    }
+
+
+
+
+
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
+        padding: 20px;
+        margin: 30px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /* text-align: center; */
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+
+    }
+
+    .flip-card-front {
+        background-color: rgb(225 225 207);
+        color: black;
+    }
+
+    .flip-card-back {
+        background-color: #3f6985;
+        color: white;
+        transform: rotateY(180deg);
+    }
+
+
+
+    .content {
+        position: relative;
+        top: 75px;
+    }
+
+    h2 {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .webdesign {
+        list-style-type: none;
+        position: relative;
+        top: 0px;
+        right: 15px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: white;
+        font-size: 22px;
+    }
+
+    .fourth-container {
+        height: 600px;
+        border: 2px solid black;
+    }
+    .form_group button {
+        width: 200px;
+        background-color: coral;
+        font-size: 22px;
+        padding: 5px;
+        margin: 52px 10px;
+
+    }
+
+    .form_group button:hover {
+        background-color: #008CBA;
+        /* Blue */
+        color: black;
+        /* for shadow behind the button */
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+
+</style>
+
+<body>
+
+    <!-- code for my name display -->
+    <header class="navbar">
+        <div class="left">
+            <p>Manila Aryal</p>
+        </div>
+        <!-- Middle navbar display -->
+        <div class="middle">
+            <ul class=navbar_mid>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <!-- right buttons display -->
+        <div class="right">
+            <button class="btn">Contact Me</button>
+            <button class="btn">See My Resume</button>
+        </div>
+    </header>
+
+
+
+    <div class="flex-container">
+        <div class="item" id="fortxt">
+            <p>Hello!</p>
+            <h1>I am Manila Aryal</h1>
+            <p>Computer Engineer</p>
+            <p>@Developer</p>
+
+            <button class="btn">Hire</button>
+
+        </div>
+        <div class="item" id="forimg">
+            <img src="IMG_8560.png" alt="">
+        </div>
+
+
+    </div>
+    <div class="second-container">
+
+        <div class="sec1">
+            <img src="IMG_8560.png" alt="">
+
+        </div>
+        <div class="sec2">
+            <p class="container--emoji">About Me</p>
+
+            <p>My Name is Manila.I'm a computer engineer and website Developer from Kathmandu,Nepal.</p>
+
+            <p>I am an enthusiast,learner and problem solver.</p>
+            <table style="width:50%">
+                <tr>
+                    <th>Name</th>
+                    <th>Manila Aryal</th>
+
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>aryalmanila11@gmail.com</td>
+
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>9847796248</td>
+
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>2057/10/27</td>
+
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td>Nepal</td>
+
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>Kantipur Colony,Nakhipot Lalitpur</td>
+
+                </tr>
+
+            </table>
+            <button class="btn">HIRE ME</button>
+            <button class="btn">Download CV</button>
+
+        </div>
+
+    </div>
+    <div class="third-container">
+        <p class="container--emoji">Services</p>
+        <div class="flex-container2">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="content">
+                            <img src="webdesignlogo.png" alt="Avatar" style="width:75px;height:75px;">
+                            <h2>WEB DESIGN</h2>
+                        </div>
+
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>includes</h1>
+                        <ul class=webdesign>
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                            <li>Authoring</li>
+                            <li>search engine optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+
+
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="content">
+                            <img src="webdev.png" alt="Avatar" style="width:75px;height:75px;">
+                            <h2>WEB DEVELOPMENT</h2>
+                        </div>
+
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>includes</h1>
+                        <ul class=webdesign>
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                            <li>Authoring</li>
+                            <li>search engine optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="content">
+                            <img src="d31a4a203222c711f73e5b6e4a21022b.jpeg" alt="Avatar"
+                                style="width:75px;height:75px;">
+                            <h2>GRAPHIC DESIGNING</h2>
+                        </div>
+
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>includes</h1>
+                        <ul class=webdesign>
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                            <li>Authoring</li>
+                            <li>search engine optimization</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="fourth-container">
+        <h1 class="container--emoji">Contact Me</h1>
+        <div class="item1" id="forform">
+            
+            <form>
+                <h1>Enter your Details here.</h1>
+                <div class="form_group">
+
+                    <input type="text" id="" name="" placeholder="Enter your Name" required>
+
+                    <input type="text" id="" name="" placeholder="Enter your Address" required>
+                    <input type="email" id="" name="" placeholder="Enter your Email" required>
+                    <input type="text" id="" name="" placeholder="Enter your Nationality" required>
+                    <input type="number" id="" name="" placeholder="Enter your Age" min="1" max="100" required>
+                    <button class="btn" id="Submitbtn">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

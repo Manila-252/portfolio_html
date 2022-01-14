@@ -1,0 +1,225 @@
+
+.left {
+    display: inline-block;
+    /* background-color: blue; */
+    position: absolute;
+    left: 45px;
+    top: -4px;
+    font-size: 31px;
+    font-family: 'Pacifico', cursive;
+    color:coral;
+}
+
+.middle {
+    display: block;
+    width: 44%;
+    margin: 23px auto;
+}
+
+.right {
+    
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 20px;
+
+}
+.right button {
+    background-color:#4CAF50;
+    color:black;
+    transition-duration: 0.4s;
+}
+.right button:hover{
+    background-color: #008CBA; /* Blue */
+  color:white;
+  /* for shadow behind the button */
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.navbar_mid li {
+    display: inline-block;
+    font-size: 17px;
+
+}
+
+.navbar_mid li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 33px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 20px;
+    color:black;
+}
+
+.navbar_mid li a:hover,
+.navbar_mid li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 0px 10px;
+    padding: 11px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 15px;
+    
+}
+
+.flex-container {
+    border: 3px solid black;
+    height: 600px;
+    /* text-align: center; */
+    /* margin-left:70px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.item {
+    width: 300px;
+    height: 500px;
+    /* background-color: cornflowerblue; */
+    margin: 3px;
+    padding: 22px;
+}
+
+
+#fortxt {
+    font-family: 'Pacifico', cursive;
+    width: 368px;
+    /* text-align: center; */
+    font-size: 21px;
+    /* background-color: chartreuse; */
+}
+
+
+
+
+#forimg img {
+    height: 550px;
+    width: 450px;
+
+}
+
+
+
+.item1 {
+    border: 3px solid rgb(26, 27, 25);
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    height: 450px;
+    width:40%;
+    background-color: rgb(11, 70, 49);
+}
+
+.form_group input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 11px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.form_group button:hover {
+    background-color: #008CBA;
+    /* Blue */
+    color: white;
+    /* for shadow behind the button */
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: coral;
+    text-align: center;
+}
+
+#Submitbtn {
+    display: block;
+    margin: auto;
+}
+
+#fortxt button {
+    width: 140px;
+    background-color: coral;
+    font-size: 22px;
+    
+}
+
+#fortxt button:hover {
+    background-color: #008CBA;
+    /* Blue */
+    color: black;
+    /* for shadow behind the button */
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.second-container {
+    height: 650px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+}
+
+.sec1 {
+    width: 50%;
+    height: 500px;
+    /* border: 2px solid black; */
+
+}
+
+.sec1 img {
+    height: 350px;
+    width: 350px;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: 8px;
+    border: 10px ridge rgb(19, 9, 5);
+}
+
+.sec2 {
+    width: 50%;
+    height: 650px;
+    /* border: 2px solid black; */
+    background-color: rgb(224, 224, 204);
+}
+
+table,
+th,
+td {
+    margin: 14px auto;
+    padding: 4px;
+    /* font-family: 'Balthazar', serif; */
+    font-family: 'Pacifico', cursive;
+}
+.container--emoji{
+    text-decoration: underline  rgb(25, 187, 39) 4px;
+    font-family: 'Balthazar';
+   
+    font-size: 25px;
+    padding:10px;
+    
+
+}
+.sec2 img{
+    height:10px;
+    width:20px;
+    
+
+}
+.sec2 p{
+font-family: 'Balthazar';
+font-size: 22px;
+}
